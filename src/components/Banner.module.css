@@ -1,0 +1,27 @@
+.heading{
+    margin: auto;
+    text-align: center;
+    color:  rgb(219, 55, 255);
+    background-color: blueviolet;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+h1{
+    font-size: 8rem;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+}
+.heart{
+    color: red;
+}
+/* #firstp{
+    padding-top: 4rem;
+    padding-bottom: 4rem ;
+    background-color: rgb(219, 55, 205);
+    color: aqua;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+} */
+P{
+    font-size: 3rem ;
+}

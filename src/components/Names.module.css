@@ -1,0 +1,45 @@
+.form{
+    background-color: rgb(219, 55, 205);   
+}
+.inputs{
+    width: 95%;
+    margin-left: 1%;
+    height: 30px;
+    margin-top: 10px;
+}
+.input{
+    padding-top: 20px;
+}
+.name{
+    
+    color: aqua;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1%;
+}
+.subButton{
+    color: whitesmoke;
+    font-size: x-large;
+    height: 40px;
+    margin-left: 42%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    background-color: brown;
+    cursor: pointer;
+    border-color: brown;
+}
+.subButton:hover{
+    background-color: rgb(131, 40, 40);
+}
+.result{
+    background-color: rgb(172, 34, 34);
+    width:100%;
+    height: fit-content;
+    text-align: center;
+    color: aqua;
+    font-size: 3rem ;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    margin: auto;
+}

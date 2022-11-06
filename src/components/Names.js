@@ -5,21 +5,28 @@ const Names=()=>{
     
     const formSubmitHandler=(event)=>{
         event.preventDefault();
-       
-        var randomNumber = Math.floor(Math.random()*100 + 1);
+        var moneyNumber =   Math.floor(Math.random() * (100 - 85 + 1) + 85)
         const userName = document.getElementById('username').value;
-        const secondName = document.getElementById('secondname').value;
-        var total = "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% !";
-        var high =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! Both of you are obssessed with each other <i class='fa-solid fa-face-grin-hearts'></i>"; 
-        var low =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! both of you should probably spend more time together to develop more feelings";
-      
-             if ( randomNumber <= 30){
+        var highh =  "Hello " +  userName+ " your love score with Money is "+moneyNumber +"% ! Hehe, Rich kid 😂."; 
+       const money = 'Money'
+       
+       const secondName = document.getElementById('secondname').value;
+        var randomNumber = Math.floor(Math.random()*100 + 1);
+       
+       
+        var total = "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! 😐";
+        var high =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! Both of you are obssessed with each other 😎❤️‍🔥"; 
+        var low =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! both of you should probably spend more time together to develop more feelings 😔";
+        if (secondName === money){
+            document.getElementById("result").innerHTML =highh;}
+           else  if ( randomNumber <= 30){
             document.getElementById("result").innerHTML =low;}
             else if ( randomNumber > 30 && randomNumber < 75){
                document.getElementById("result").innerHTML =total;}
                else if ( randomNumber >= 75){
                   document.getElementById("result").innerHTML = high ;
-               }
+               };
+           
             
     }
     return(
@@ -40,7 +47,9 @@ const Names=()=>{
     </div>
 </form>
 <div  id='result' className={classes.result}>
+    <em>
 Result
+</em>
 </div>
 </>
     );

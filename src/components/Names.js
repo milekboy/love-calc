@@ -15,7 +15,7 @@ const Names=()=>{
        
        
         var total = "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! ";
-        var high =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! Both of you are obssessed with each other"; 
+        var high =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! Both of you are obssessed with each other ❤️"; 
         var low =  "Hello "+ userName + " your love score with " + secondName+ " is "+ randomNumber + "% ! both of you should probably spend more time together to develop more feelings ";
         if (secondName === money){
             document.getElementById("result").innerHTML =highh;}
